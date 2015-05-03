@@ -11,14 +11,14 @@
     "globals"
   ],
   "keywords": [
-    "\"date\"",
-    "\"jalali\"",
-    "\"persian\"",
-    "\"farsi\"",
-    "\"shamsi\"",
-    "\"hijri\"",
-    "\"iran\"",
-    "\"js\""
+    "date",
+    "jalali",
+    "persian",
+    "farsi",
+    "shamsi",
+    "hijri",
+    "iran",
+    "js"
   ],
   "license": "GPL v3",
   "ignore": [
