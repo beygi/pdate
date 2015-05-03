@@ -1,4 +1,6 @@
 // Cache original `Date` class. User may set window.Date = JDate
+
+//JDATE class from tahajahangir/jdate
 var Date = window.Date;
 
 function digits_fa2en(text) {
