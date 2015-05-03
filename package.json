@@ -1,7 +1,7 @@
 {
   "name": "pdate",
   "main": "pdate.min.js",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/beygi/pdate.git"
