@@ -1,0 +1,31 @@
+{
+  "name": "pdate",
+  "main": "pdate.min.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/beygi/pdate",
+  "authors": [
+    "Mahdy Beygi <mahdy@beygi.org>"
+  ],
+  "description": "a fully javascript compatible persian date class",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "\"date\"",
+    "\"jalali\"",
+    "\"persian\"",
+    "\"farsi\"",
+    "\"shamsi\"",
+    "\"hijri\"",
+    "\"iran\"",
+    "\"js\""
+  ],
+  "license": "GPL v3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

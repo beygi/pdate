@@ -1,5 +1,24 @@
 {
   "name": "pdate",
+  "main": "pdate.min.js",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beygi/pdate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beygi/pdate/issues"
+  },
+  "keywords": [
+    "date",
+    "jalali",
+    "persian",
+    "farsi",
+    "shamsi",
+    "hijri",
+    "iran",
+    "js"
+  ]
   "dependencies": {
     "grunt": "^0.4.5"
   },
