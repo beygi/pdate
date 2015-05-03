@@ -1,7 +1,7 @@
 {
   "name": "pdate",
   "main": "pdate.min.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/beygi/pdate",
   "authors": [
     "Mahdy Beygi <mahdy@beygi.org>"
