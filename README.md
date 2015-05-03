@@ -2,8 +2,6 @@ pDate
 =====
 [![Build Status](https://travis-ci.org/beygi/pdate.svg?branch=master)](https://travis-ci.org/beygi/pdate)
 
-Show the rendered HTML markdown to the right of the current editor using
-
 **pDate** is a persian (jalali,shamsi,hijri) date class that trying to be fully compatible with original `Date` class for using in browser or in the server with nodejs
 
 Installation
