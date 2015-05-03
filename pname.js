@@ -1,5 +1,5 @@
 // Cache original `Date` class. User may set window.Date = JDate
-var Date = window.Date'];
+var Date = window.Date;
 
 function digits_fa2en(text) {
 	return text.replace(/[۰-۹]/g, function (d) {
@@ -247,4 +247,4 @@ var i, dateProps = ('getHours getMilliseconds getMinutes getSeconds getTime getU
 for (i = 0; i < dateProps.length; i++)
 	JDate.prototype[dateProps[i]] = createWrapper(dateProps[i]);
 // Export `JDate` class to global scope
-window['JDate'] = JDate;
+window['pDate'] = JDate;
