@@ -12,7 +12,7 @@ just download pdate.min.js
 
 **using bower :**
 ~~~bash
-bower install --save
+bower install --save pdate
 ~~~
 
 Usage in client
