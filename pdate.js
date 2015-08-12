@@ -210,7 +210,8 @@ function parseDate(string, convertToPersian) {
  */
 function JDate(a, month, day, hour, minute, second, millisecond) {
 	if (typeof a == 'string') {
-		this._d = parseDate(digits_fa2en(a), true);
+		convert = (month!=undefined)?month:true;
+		this._d = parseDate(digits_fa2en(a), convert);
 		if (!this._d) throw 'Cannot parse date string'
 	} else if (arguments.length == 0)
 		this._d = new Date();
