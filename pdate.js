@@ -342,7 +342,7 @@ JDate['parse'] = function (string) {
  * milliseconds in a Date object since January 1, 1970, 00:00:00, universal time.
  */
 JDate['UTC'] = function (year, month, date, hours, minutes, seconds, milliseconds) {
-	var d = jd_to_gregorian(persian_to_jd_fixed(year, month + 1, date || 1));
+	var d = jd_to_gregorian(persian_to_jd_fixed(year, month + 1, date));
 	return Date.UTC(d[0], d[1] - 1, d[2], hours || 0, minutes || 0, seconds || 0, milliseconds || 0);
 };
 // Proxy all time-related methods to internal date object
